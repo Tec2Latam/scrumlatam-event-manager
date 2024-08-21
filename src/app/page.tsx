@@ -1,12 +1,10 @@
-import CardLink from "@/components/CardLink";
-import HeaderLabel from "@/components/HeaderLabel";
-
 export default function Home() {
   return (
     <div>
         <h1>Daysi UI Components</h1>
         <p>Los siguientes son componentes Daysi</p>
         
+        {/* Este es el card */}
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
             <img
@@ -25,6 +23,8 @@ export default function Home() {
           </div>
         </div>
 
+
+        {/* este es el drawer  */}
         <div className="drawer">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
