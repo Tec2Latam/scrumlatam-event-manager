@@ -7,7 +7,14 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+    colors: {
+      'custom-blue': '#082965',
+      'custom-orange': '#FE2E00',
+
+    },
+  },},
   daisyui: {
     themes: [
       {
@@ -31,7 +38,7 @@ const config: Config = {
           "warning": "#a37c00",
           "warning-content": "#0a0500",
           "error": "#a80000",
-          "error-content": "#160305",
+          "error-content": "#160305"
         },
       },
     ],
